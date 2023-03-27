@@ -1,10 +1,26 @@
 body{
     background-image: url(https://wallpapercave.com/wp/wp4289092.jpg);
 }
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+.header
+{
+    background-color:   rgba(255, 255, 240, 0.63);
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 150px;
+    display: flex;
+    border: 5px outset rgba(47, 69, 113, 0.811);
+
+}
 .row{
     width: 1200px;
     height: 800px;
-    background-color: aqua;
+    
     margin: 100px;
     border: 3px inset rgba(106, 79, 79, 0.541);
     display: flex;
@@ -28,6 +44,9 @@ img{
     border: 4px inset rgb(158, 102, 102);
     border-radius: 40%;
 }
+img:hover{
+    border-radius: 100%;
+}
 iframe{
     width: 200px;
     height: 200px;
@@ -41,3 +60,12 @@ h1{
 h2{
     text-shadow:4px 8px 10px;
 }
+.footer{
+    border: 5px inset rgba(255, 0, 0, 0.032);
+    height: 100px;
+    background-color: rgba(255, 255, 240, 0.63);
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 6px inset rgb(184, 184, 234);}
